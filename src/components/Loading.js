@@ -5,6 +5,7 @@ import {
 	makeStyles,
 } from '@material-ui/core';
 import React from 'react';
+import logo from './logo.png';
 
 const useStyles = makeStyles((theme) =>
 	createStyles({
@@ -30,7 +31,11 @@ export default function Loading() {
 				className={styledClasses.mainContainer}
 			>
 				<picture>
-					<img src="/logo.webp" alt="ABM LOGO" />
+					{/* <img
+						src="https://static.wixstatic.com/media/d16229_3caa52e2dfda4719a65a293d0edb2a05~mv2.png/v1/fill/w_159,h_159,al_c,usm_0.66_1.00_0.01/logo.png"
+						alt="ABM LOGO"
+					/> */}
+					<img src={logo} alt="ABM LOGO" />
 				</picture>
 				<CircularProgress
 					thickness={4}

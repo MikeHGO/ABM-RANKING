@@ -1,12 +1,31 @@
-import { Container, Paper } from '@material-ui/core';
+import {
+	Container,
+	createStyles,
+	makeStyles,
+	Paper,
+	Typography,
+} from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import Tabletop from 'tabletop';
 import Loading from '../components/Loading';
 import SimpleTable from '../components/SimpleTable';
 
+const useStyles = makeStyles((theme) =>
+	createStyles({
+		title: {
+			fontFamily: 'Raleway,sans-serif',
+			fontSize: '40px',
+			wordWrap: 'break-word',
+			textAlign: 'center',
+			margin: '1rem',
+		},
+	})
+);
+
 function OnlineRanking() {
 	const [data, setData] = useState([]);
 	const [isLoading, setIsLoading] = useState(true);
+	const styledClasses = useStyles();
 
 	const sortArrayByName = (myArray, name) => {
 		// Ordenando por string
@@ -60,6 +79,9 @@ function OnlineRanking() {
 			<>
 				<Container>
 					<Paper elevation={0}>
+						<Typography className={styledClasses.title}>
+							RANKING ON-LINE
+						</Typography>
 						<SimpleTable data={data} />
 					</Paper>
 				</Container>

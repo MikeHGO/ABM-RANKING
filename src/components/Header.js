@@ -8,6 +8,7 @@ import {
 } from '@material-ui/core';
 import React from 'react';
 import { useHistory } from 'react-router';
+import logo from './logo.png';
 
 const useStyles = makeStyles((theme) =>
 	createStyles({
@@ -30,7 +31,7 @@ const useStyles = makeStyles((theme) =>
 			borderColor: theme.palette.common.black,
 		},
 		box: {
-			padding: '2.5rem 0',
+			padding: '2.5rem 0 0 0',
 		},
 		links: {
 			// apenas logo e titulo
@@ -70,14 +71,18 @@ export default function Header() {
 						className={styledClasses.links}
 					>
 						<picture>
-							<img src="/logo.webp" alt="ABM LOGO" />
+							{/* <img
+								src="https://static.wixstatic.com/media/d16229_3caa52e2dfda4719a65a293d0edb2a05~mv2.png/v1/fill/w_159,h_159,al_c,usm_0.66_1.00_0.01/logo.png"
+								alt="ABM LOGO"
+							/> */}
+							<img src={logo} alt="ABM LOGO" />
 						</picture>
 						<span className={styledClasses.centerText}>
 							<Typography className={styledClasses.title}>
 								ASSOCIAÇÃO BRASILEIRA DE MAHJONG
 							</Typography>
 							<span className={styledClasses.subTitle}>
-								Divulgando o Mahjong no Brasil
+								Promovendo o Mahjong no Brasil
 							</span>
 						</span>
 					</a>
@@ -91,14 +96,14 @@ export default function Header() {
 						<Button
 							size="large"
 							focusRipple={false}
-							onClick={() => handleClick('/presencial')}
+							onClick={() => handleClick('/ABM-RANKING/presencial')}
 						>
 							Ranking Presencial
 						</Button>
 						<Button
 							size="large"
 							focusRipple={false}
-							onClick={() => handleClick('/online')}
+							onClick={() => handleClick('/ABM-RANKING/online')}
 						>
 							Ranking On-line
 						</Button>

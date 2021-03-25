@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/ABM-RANKING/static/js/main.9c42400d.chunk.js",
-    "main.js.map": "/ABM-RANKING/static/js/main.9c42400d.chunk.js.map",
-    "runtime-main.js": "/ABM-RANKING/static/js/runtime-main.cdabb53b.js",
-    "runtime-main.js.map": "/ABM-RANKING/static/js/runtime-main.cdabb53b.js.map",
-    "static/js/2.663e81b0.chunk.js": "/ABM-RANKING/static/js/2.663e81b0.chunk.js",
-    "static/js/2.663e81b0.chunk.js.map": "/ABM-RANKING/static/js/2.663e81b0.chunk.js.map",
-    "index.html": "/ABM-RANKING/index.html",
-    "static/js/2.663e81b0.chunk.js.LICENSE.txt": "/ABM-RANKING/static/js/2.663e81b0.chunk.js.LICENSE.txt",
-    "static/media/logo.fd72c644.png": "/ABM-RANKING/static/media/logo.fd72c644.png",
-    "static/media/mahjong_international.deea4f51.png": "/ABM-RANKING/static/media/mahjong_international.deea4f51.png"
+    "main.js": "/static/js/main.9c42400d.chunk.js",
+    "main.js.map": "/static/js/main.9c42400d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.884e6dd4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.884e6dd4.js.map",
+    "static/js/2.663e81b0.chunk.js": "/static/js/2.663e81b0.chunk.js",
+    "static/js/2.663e81b0.chunk.js.map": "/static/js/2.663e81b0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.663e81b0.chunk.js.LICENSE.txt": "/static/js/2.663e81b0.chunk.js.LICENSE.txt",
+    "static/media/logo.fd72c644.png": "/static/media/logo.fd72c644.png",
+    "static/media/mahjong_international.deea4f51.png": "/static/media/mahjong_international.deea4f51.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cdabb53b.js",
+    "static/js/runtime-main.884e6dd4.js",
     "static/js/2.663e81b0.chunk.js",
     "static/js/main.9c42400d.chunk.js"
   ]

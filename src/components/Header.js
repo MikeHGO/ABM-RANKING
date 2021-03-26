@@ -13,25 +13,30 @@ import logo from './logo.png';
 const useStyles = makeStyles((theme) =>
 	createStyles({
 		title: {
-			fontFamily: 'Raleway,sans-serif',
+			fontFamily: 'Raleway, sans-serif',
 			fontSize: '40px',
 			wordWrap: 'break-word',
+			letterSpacing: '0em',
+			lineHeight: '54px',
+			paddingLeft: '1rem',
 		},
 		subTitle: {
 			fontSize: '15px',
-			fontFamily: 'Raleway,sans-serif',
+			fontFamily: 'Raleway, sans-serif',
+			lineHeight: '22px',
 		},
 		centerText: {
 			textAlign: 'center',
 		},
 		navBar: {
 			borderTop: '1px solid',
+			maxWidth: '940px',
 			width: '100%',
 			paddingTop: '1rem',
 			borderColor: theme.palette.common.black,
 		},
 		box: {
-			padding: '2.5rem 0 0 0',
+			padding: '2.55rem 0 0 0',
 		},
 		links: {
 			// apenas logo e titulo

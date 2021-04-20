@@ -2,7 +2,7 @@
 	"name": "ranking-page",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://ranking.mahjongbrasil.com.br/",	
+	"homepage": "https://ranking.mahjongbrasil.com.br/",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.34",
 		"@fortawesome/free-brands-svg-icons": "^5.15.2",
@@ -15,6 +15,7 @@
 		"gh-pages": "^3.1.0",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
+		"react-query": "^3.13.10",
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "4.0.3",
 		"tabletop": "^1.6.3",

@@ -91,7 +91,7 @@ export default function Header() {
 							</span>
 						</span>
 					</a>
-					<Box
+					{/* <Box
 						display="flex"
 						justifyContent="center"
 						alignItems="center"
@@ -112,7 +112,7 @@ export default function Header() {
 						>
 							Ranking On-line
 						</Button>
-					</Box>
+					</Box> */}
 				</Box>
 			</Container>
 		</>

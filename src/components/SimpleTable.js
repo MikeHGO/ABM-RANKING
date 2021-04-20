@@ -50,7 +50,6 @@ export default function SimpleTable({ data }) {
 				</TableHead>
 				<TableBody>
 					{data.map((row, index) => (
-						// ate indice 7 cor azul
 						<StyledTableRow key={row.jogador}>
 							<StyledTableCell align="center" component="th" scope="row">
 								{index + 1}

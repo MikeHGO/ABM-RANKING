@@ -24,12 +24,6 @@ function App() {
 					<Route exact path="/ABM-RANKING/online">
 						<OnlineRanking />
 					</Route>
-					{/* <Route exact path="/online">
-						<OnlineRanking />
-					</Route>
-					<Route exact path="/presencial">
-						<OfflineRanking />
-					</Route> */}
 					<Route exact path="/ABM-RANKING/presencial">
 						<OfflineRanking />
 					</Route>

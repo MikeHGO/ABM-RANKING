@@ -1,65 +1,58 @@
 import {
 	Box,
-	Button,
 	Container,
 	createStyles,
 	makeStyles,
 	Typography,
-} from '@material-ui/core';
-import React from 'react';
-import { useHistory } from 'react-router';
-import logo from './logo.png';
+} from "@material-ui/core";
+import React from "react";
+import logo from "./logo.png";
 
 const useStyles = makeStyles((theme) =>
 	createStyles({
 		title: {
-			fontFamily: 'Raleway, sans-serif',
-			fontSize: '40px',
-			wordWrap: 'break-word',
-			letterSpacing: '0em',
-			lineHeight: '54px',
-			paddingLeft: '1rem',
+			fontFamily: "Raleway, sans-serif",
+			fontSize: "40px",
+			wordWrap: "break-word",
+			letterSpacing: "0em",
+			lineHeight: "54px",
+			paddingLeft: "1rem",
 		},
 		subTitle: {
-			fontSize: '15px',
-			fontFamily: 'Raleway, sans-serif',
-			lineHeight: '22px',
+			fontSize: "15px",
+			fontFamily: "Raleway, sans-serif",
+			lineHeight: "22px",
 		},
 		centerText: {
-			textAlign: 'center',
+			textAlign: "center",
 		},
 		navBar: {
-			borderTop: '1px solid',
-			maxWidth: '940px',
-			width: '100%',
-			paddingTop: '1rem',
+			borderTop: "1px solid",
+			maxWidth: "940px",
+			width: "100%",
+			paddingTop: "1rem",
 			borderColor: theme.palette.common.black,
 		},
 		box: {
-			padding: '2.55rem 0 0 0',
+			padding: "2.55rem 0 0 0",
 		},
 		links: {
 			// apenas logo e titulo
-			outline: 'none',
-			color: 'inherit',
-			textDecoration: 'none',
+			outline: "none",
+			color: "inherit",
+			textDecoration: "none",
 			// header completo
-			display: 'flex',
-			justifyContent: 'center',
-			alignItems: 'center',
-			flexDirection: 'column',
-			gridGap: '1rem',
+			display: "flex",
+			justifyContent: "center",
+			alignItems: "center",
+			flexDirection: "column",
+			gridGap: "1rem",
 		},
 	})
 );
 
 export default function Header() {
 	const styledClasses = useStyles();
-	let history = useHistory();
-
-	const handleClick = (path) => {
-		history.push(path);
-	};
 	return (
 		<>
 			<Container>
@@ -91,28 +84,6 @@ export default function Header() {
 							</span>
 						</span>
 					</a>
-					{/* <Box
-						display="flex"
-						justifyContent="center"
-						alignItems="center"
-						gridGap="1rem"
-						className={styledClasses.navBar}
-					>
-						<Button
-							size="large"
-							focusRipple={false}
-							onClick={() => handleClick('/ABM-RANKING/presencial')}
-						>
-							Ranking Presencial
-						</Button>
-						<Button
-							size="large"
-							focusRipple={false}
-							onClick={() => handleClick('/ABM-RANKING/online')}
-						>
-							Ranking On-line
-						</Button>
-					</Box> */}
 				</Box>
 			</Container>
 		</>
